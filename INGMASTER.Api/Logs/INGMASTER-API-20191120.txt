@@ -1,0 +1,244 @@
+===> 2019-11-20 07:11:26.054 +03:00 [Information] Starting web host
+===> 2019-11-20 07:11:26.293 +03:00 [Information] User profile is available. Using '"C:\Users\vstb\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+===> 2019-11-20 07:11:26.350 +03:00 [Debug] Reading data from file '"C:\Users\vstb\AppData\Local\ASP.NET\DataProtection-Keys\key-32127517-b397-4ae3-9a44-33b0fb40f912.xml"'.
+===> 2019-11-20 07:11:26.393 +03:00 [Debug] Found key {32127517-b397-4ae3-9a44-33b0fb40f912}.
+===> 2019-11-20 07:11:26.409 +03:00 [Debug] Considering key {32127517-b397-4ae3-9a44-33b0fb40f912} with expiration date 2020-02-18 03:31:12Z as default key.
+===> 2019-11-20 07:11:26.462 +03:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+===> 2019-11-20 07:11:26.465 +03:00 [Debug] Decrypting secret element using Windows DPAPI.
+===> 2019-11-20 07:11:26.467 +03:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+===> 2019-11-20 07:11:26.472 +03:00 [Debug] Opening CNG algorithm '"AES"' from provider 'null' with chaining mode CBC.
+===> 2019-11-20 07:11:26.476 +03:00 [Debug] Opening CNG algorithm '"SHA256"' from provider 'null' with HMAC.
+===> 2019-11-20 07:11:26.481 +03:00 [Debug] Using key {32127517-b397-4ae3-9a44-33b0fb40f912} as the default key.
+===> 2019-11-20 07:11:26.482 +03:00 [Debug] Key ring with default key {32127517-b397-4ae3-9a44-33b0fb40f912} was loaded during application startup.
+===> 2019-11-20 07:11:26.802 +03:00 [Information] Startup::Configure
+===> 2019-11-20 07:11:26.999 +03:00 [Debug] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.Versioning.ApiVersionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider"]
+===> 2019-11-20 07:11:27.017 +03:00 [Debug] Initializing Razor view compiler with no compiled views.
+===> 2019-11-20 07:11:28.073 +03:00 [Debug] An 'IServiceProvider' was created for internal use by Entity Framework.
+===> 2019-11-20 07:11:28.268 +03:00 [Debug] An additional 'IServiceProvider' was created for internal use by Entity Framework. An existing service provider was not used due to the following configuration changes: "configuration added for 'Proxies:UseLazyLoadingProxies'".
+===> 2019-11-20 07:11:29.911 +03:00 [Information] Entity Framework Core "3.0.0" initialized '"INGMASTERContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies "
+===> 2019-11-20 07:11:30.609 +03:00 [Debug] Opening connection to database '"INGMASTER"' on server '".\SQLEXPRESS"'.
+===> 2019-11-20 07:11:45.519 +03:00 [Debug] An error occurred using the connection to database '"INGMASTER"' on server '".\SQLEXPRESS"'.
+===> 2019-11-20 07:11:46.094 +03:00 [Debug] '"INGMASTERContext"' disposed.
+===> 2019-11-20 07:11:46.096 +03:00 [Error] A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+===> 2019-11-20 07:11:46.206 +03:00 [Debug] Loaded hosting startup assembly "INGMASTER.Api"
+===> 2019-11-20 07:11:46.266 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/api/info  
+===> 2019-11-20 07:11:46.269 +03:00 [Debug] Wildcard detected, all requests with hosts will be allowed.
+===> 2019-11-20 07:11:46.638 +03:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2019-11-20 07:11:46.811 +03:00 [Debug] Request successfully matched the route with name 'null' and template '"api/Info"'
+===> 2019-11-20 07:11:46.878 +03:00 [Information] Route matched with "{action = \"ApiInfo\", controller = \"Info\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult ApiInfo()" on controller "INGMASTER.Api.Controllers.v1.InfoController" ("INGMASTER.Api").
+===> 2019-11-20 07:11:46.879 +03:00 [Debug] Execution plan of "authorization" filters (in the following order): ["None"]
+===> 2019-11-20 07:11:46.880 +03:00 [Debug] Execution plan of "resource" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+===> 2019-11-20 07:11:46.880 +03:00 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2019-11-20 07:11:46.880 +03:00 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+===> 2019-11-20 07:11:46.881 +03:00 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter", "Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)", "Microsoft.AspNetCore.Mvc.ProducesAttribute (Order: 0)"]
+===> 2019-11-20 07:11:46.883 +03:00 [Debug] Executing controller factory for controller "INGMASTER.Api.Controllers.v1.InfoController" ("INGMASTER.Api")
+===> 2019-11-20 07:11:46.884 +03:00 [Debug] Executed controller factory for controller "INGMASTER.Api.Controllers.v1.InfoController" ("INGMASTER.Api")
+===> 2019-11-20 07:11:47.035 +03:00 [Information] Executing action method "INGMASTER.Api.Controllers.v1.InfoController.ApiInfo (INGMASTER.Api)" - Validation state: Valid
+===> 2019-11-20 07:11:47.080 +03:00 [Information] Executed action method "INGMASTER.Api.Controllers.v1.InfoController.ApiInfo (INGMASTER.Api)", returned result "Microsoft.AspNetCore.Mvc.ContentResult" in 38.9125ms.
+===> 2019-11-20 07:11:47.099 +03:00 [Information] Executing ContentResult with HTTP Response ContentType of "text/html"
+===> 2019-11-20 07:11:47.175 +03:00 [Information] Executed action "INGMASTER.Api.Controllers.v1.InfoController.ApiInfo (INGMASTER.Api)" in 287.8936ms
+===> 2019-11-20 07:11:47.180 +03:00 [Information] Request finished in 916.3323ms 200 text/html
+===> 2019-11-20 07:11:47.850 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/favicon.ico  
+===> 2019-11-20 07:11:47.853 +03:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2019-11-20 07:11:47.854 +03:00 [Debug] Request did not match any routes
+===> 2019-11-20 07:11:47.881 +03:00 [Debug] The request path "" does not match the path filter
+===> 2019-11-20 07:11:47.882 +03:00 [Debug] Request did not match any routes
+===> 2019-11-20 07:11:47.885 +03:00 [Information] Request finished in 34.1957ms 404 
+===> 2019-11-20 07:11:56.234 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger  
+===> 2019-11-20 07:11:56.237 +03:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2019-11-20 07:11:56.238 +03:00 [Debug] Request did not match any routes
+===> 2019-11-20 07:11:56.241 +03:00 [Information] Request finished in 7.648300000000001ms 301 
+===> 2019-11-20 07:11:56.252 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger/index.html  
+===> 2019-11-20 07:11:56.252 +03:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2019-11-20 07:11:56.252 +03:00 [Debug] Request did not match any routes
+===> 2019-11-20 07:11:56.513 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger/swagger-ui.css  
+===> 2019-11-20 07:11:56.513 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger/swagger-ui-bundle.js  
+===> 2019-11-20 07:11:56.513 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger/swagger-ui-standalone-preset.js  
+===> 2019-11-20 07:11:56.513 +03:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2019-11-20 07:11:56.513 +03:00 [Debug] Request did not match any routes
+===> 2019-11-20 07:11:56.513 +03:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2019-11-20 07:11:56.520 +03:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2019-11-20 07:11:56.519 +03:00 [Debug] Request did not match any routes
+===> 2019-11-20 07:11:56.524 +03:00 [Debug] Request did not match any routes
+===> 2019-11-20 07:11:56.536 +03:00 [Information] Request finished in 283.9592ms 200 text/html;charset=utf-8
+===> 2019-11-20 07:11:56.601 +03:00 [Information] Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"'
+===> 2019-11-20 07:11:56.604 +03:00 [Information] Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"'
+===> 2019-11-20 07:11:56.607 +03:00 [Information] Request finished in 94.0832ms 200 application/javascript
+===> 2019-11-20 07:11:56.607 +03:00 [Information] Request finished in 94.5053ms 200 text/css
+===> 2019-11-20 07:11:56.616 +03:00 [Information] Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"'
+===> 2019-11-20 07:11:56.616 +03:00 [Information] Request finished in 103.1973ms 200 application/javascript
+===> 2019-11-20 07:11:57.120 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger/swagger-ui-bundle.js.map  
+===> 2019-11-20 07:11:57.120 +03:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2019-11-20 07:11:57.121 +03:00 [Debug] Request did not match any routes
+===> 2019-11-20 07:11:57.150 +03:00 [Debug] The request path "/swagger-ui-bundle.js.map" does not match an existing file
+===> 2019-11-20 07:11:57.150 +03:00 [Debug] Request did not match any routes
+===> 2019-11-20 07:11:57.154 +03:00 [Information] Request finished in 34.002ms 404 
+===> 2019-11-20 07:11:57.257 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger/swagger-ui-standalone-preset.js.map  
+===> 2019-11-20 07:11:57.259 +03:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2019-11-20 07:11:57.260 +03:00 [Debug] Request did not match any routes
+===> 2019-11-20 07:11:57.260 +03:00 [Debug] The request path "/swagger-ui-standalone-preset.js.map" does not match an existing file
+===> 2019-11-20 07:11:57.260 +03:00 [Debug] Request did not match any routes
+===> 2019-11-20 07:11:57.261 +03:00 [Information] Request finished in 5.3016000000000005ms 404 
+===> 2019-11-20 07:11:57.361 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger/v1/swagger.json  
+===> 2019-11-20 07:11:57.362 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger/favicon-32x32.png  
+===> 2019-11-20 07:11:57.362 +03:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2019-11-20 07:11:57.362 +03:00 [Debug] Request did not match any routes
+===> 2019-11-20 07:11:57.362 +03:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2019-11-20 07:11:57.362 +03:00 [Debug] Request did not match any routes
+===> 2019-11-20 07:11:57.363 +03:00 [Information] Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+===> 2019-11-20 07:11:57.363 +03:00 [Information] Request finished in 1.6517000000000002ms 200 image/png
+===> 2019-11-20 07:11:57.681 +03:00 [Information] Request finished in 320.0226ms 200 application/json;charset=utf-8
+===> 2019-11-20 07:13:47.155 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger/v1/swagger.json  
+===> 2019-11-20 07:13:47.157 +03:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2019-11-20 07:13:47.157 +03:00 [Debug] Request did not match any routes
+===> 2019-11-20 07:13:47.199 +03:00 [Information] Request finished in 43.0037ms 200 application/json;charset=utf-8
+===> 2019-11-20 07:13:49.932 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger/v1/swagger.json  
+===> 2019-11-20 07:13:49.932 +03:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2019-11-20 07:13:49.933 +03:00 [Debug] Request did not match any routes
+===> 2019-11-20 07:13:49.943 +03:00 [Information] Request finished in 11.781600000000001ms 200 application/json;charset=utf-8
+===> 2019-11-20 07:14:40.107 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger/v2/swagger.json  
+===> 2019-11-20 07:14:40.108 +03:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2019-11-20 07:14:40.108 +03:00 [Debug] Request did not match any routes
+===> 2019-11-20 07:14:40.138 +03:00 [Information] Request finished in 31.2661ms 200 application/json;charset=utf-8
+===> 2019-11-20 07:14:49.210 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger/v2/swagger.json  
+===> 2019-11-20 07:14:49.211 +03:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2019-11-20 07:14:49.211 +03:00 [Debug] Request did not match any routes
+===> 2019-11-20 07:14:49.215 +03:00 [Information] Request finished in 5.588ms 200 application/json;charset=utf-8
+===> 2019-11-20 07:15:21.547 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger/index.html?urls.primaryName=INGMASTER%20API%20V2  
+===> 2019-11-20 07:15:21.548 +03:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2019-11-20 07:15:21.548 +03:00 [Debug] Request did not match any routes
+===> 2019-11-20 07:15:21.553 +03:00 [Information] Request finished in 6.162100000000001ms 200 text/html;charset=utf-8
+===> 2019-11-20 07:15:21.581 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger/swagger-ui.css  
+===> 2019-11-20 07:15:21.581 +03:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2019-11-20 07:15:21.581 +03:00 [Debug] Request did not match any routes
+===> 2019-11-20 07:15:21.582 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger/swagger-ui-bundle.js  
+===> 2019-11-20 07:15:21.582 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger/swagger-ui-standalone-preset.js  
+===> 2019-11-20 07:15:21.587 +03:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2019-11-20 07:15:21.587 +03:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2019-11-20 07:15:21.603 +03:00 [Debug] Request did not match any routes
+===> 2019-11-20 07:15:21.603 +03:00 [Debug] Request did not match any routes
+===> 2019-11-20 07:15:21.611 +03:00 [Information] Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"'
+===> 2019-11-20 07:15:21.612 +03:00 [Information] Request finished in 30.4509ms 200 text/css
+===> 2019-11-20 07:15:21.614 +03:00 [Information] Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"'
+===> 2019-11-20 07:15:21.619 +03:00 [Information] Request finished in 32.8192ms 200 application/javascript
+===> 2019-11-20 07:15:21.623 +03:00 [Information] Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"'
+===> 2019-11-20 07:15:21.624 +03:00 [Information] Request finished in 41.7535ms 200 application/javascript
+===> 2019-11-20 07:15:21.977 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger/swagger-ui-bundle.js.map  
+===> 2019-11-20 07:15:21.977 +03:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2019-11-20 07:15:21.977 +03:00 [Debug] Request did not match any routes
+===> 2019-11-20 07:15:21.978 +03:00 [Debug] The request path "/swagger-ui-bundle.js.map" does not match an existing file
+===> 2019-11-20 07:15:21.978 +03:00 [Debug] Request did not match any routes
+===> 2019-11-20 07:15:21.979 +03:00 [Information] Request finished in 2.3586ms 404 
+===> 2019-11-20 07:15:22.210 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger/swagger-ui-standalone-preset.js.map  
+===> 2019-11-20 07:15:22.210 +03:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2019-11-20 07:15:22.210 +03:00 [Debug] Request did not match any routes
+===> 2019-11-20 07:15:22.211 +03:00 [Debug] The request path "/swagger-ui-standalone-preset.js.map" does not match an existing file
+===> 2019-11-20 07:15:22.211 +03:00 [Debug] Request did not match any routes
+===> 2019-11-20 07:15:22.238 +03:00 [Information] Request finished in 29.7112ms 404 
+===> 2019-11-20 07:15:22.264 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger/v2/swagger.json  
+===> 2019-11-20 07:15:22.264 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger/favicon-32x32.png  
+===> 2019-11-20 07:15:22.264 +03:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2019-11-20 07:15:22.264 +03:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2019-11-20 07:15:22.265 +03:00 [Debug] Request did not match any routes
+===> 2019-11-20 07:15:22.265 +03:00 [Debug] Request did not match any routes
+===> 2019-11-20 07:15:22.265 +03:00 [Information] Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+===> 2019-11-20 07:15:22.266 +03:00 [Information] Request finished in 1.4333ms 200 image/png
+===> 2019-11-20 07:15:22.268 +03:00 [Information] Request finished in 4.3871ms 200 application/json;charset=utf-8
+===> 2019-11-20 07:15:30.385 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger/v2/swagger.json  
+===> 2019-11-20 07:15:30.386 +03:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2019-11-20 07:15:30.386 +03:00 [Debug] Request did not match any routes
+===> 2019-11-20 07:15:30.390 +03:00 [Information] Request finished in 4.4992ms 200 application/json;charset=utf-8
+===> 2019-11-20 07:16:14.426 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger/v1/swagger.json  
+===> 2019-11-20 07:16:14.426 +03:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2019-11-20 07:16:14.426 +03:00 [Debug] Request did not match any routes
+===> 2019-11-20 07:16:14.462 +03:00 [Information] Request finished in 36.6532ms 200 application/json;charset=utf-8
+===> 2019-11-20 07:17:38.479 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger/index.html?urls.primaryName=INGMASTER%20API%20V1  
+===> 2019-11-20 07:17:38.483 +03:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2019-11-20 07:17:38.484 +03:00 [Debug] Request did not match any routes
+===> 2019-11-20 07:17:38.488 +03:00 [Information] Request finished in 9.675ms 200 text/html;charset=utf-8
+===> 2019-11-20 07:17:38.544 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger/swagger-ui.css  
+===> 2019-11-20 07:17:38.545 +03:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2019-11-20 07:17:38.545 +03:00 [Debug] Request did not match any routes
+===> 2019-11-20 07:17:38.550 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger/swagger-ui-bundle.js  
+===> 2019-11-20 07:17:38.550 +03:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2019-11-20 07:17:38.551 +03:00 [Debug] Request did not match any routes
+===> 2019-11-20 07:17:38.551 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger/swagger-ui-standalone-preset.js  
+===> 2019-11-20 07:17:38.551 +03:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2019-11-20 07:17:38.551 +03:00 [Debug] Request did not match any routes
+===> 2019-11-20 07:17:38.561 +03:00 [Information] Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"'
+===> 2019-11-20 07:17:38.564 +03:00 [Information] Request finished in 20.0697ms 200 text/css
+===> 2019-11-20 07:17:38.703 +03:00 [Information] Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"'
+===> 2019-11-20 07:17:38.721 +03:00 [Information] Request finished in 170.0072ms 200 application/javascript
+===> 2019-11-20 07:17:38.756 +03:00 [Information] Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"'
+===> 2019-11-20 07:17:38.756 +03:00 [Information] Request finished in 206.62820000000002ms 200 application/javascript
+===> 2019-11-20 07:17:39.102 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger/swagger-ui-bundle.js.map  
+===> 2019-11-20 07:17:39.102 +03:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2019-11-20 07:17:39.102 +03:00 [Debug] Request did not match any routes
+===> 2019-11-20 07:17:39.102 +03:00 [Debug] The request path "/swagger-ui-bundle.js.map" does not match an existing file
+===> 2019-11-20 07:17:39.102 +03:00 [Debug] Request did not match any routes
+===> 2019-11-20 07:17:39.107 +03:00 [Information] Request finished in 2.5836ms 404 
+===> 2019-11-20 07:17:39.201 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger/swagger-ui-standalone-preset.js.map  
+===> 2019-11-20 07:17:39.202 +03:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2019-11-20 07:17:39.202 +03:00 [Debug] Request did not match any routes
+===> 2019-11-20 07:17:39.202 +03:00 [Debug] The request path "/swagger-ui-standalone-preset.js.map" does not match an existing file
+===> 2019-11-20 07:17:39.202 +03:00 [Debug] Request did not match any routes
+===> 2019-11-20 07:17:39.212 +03:00 [Information] Request finished in 10.673300000000001ms 404 
+===> 2019-11-20 07:17:39.389 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger/v1/swagger.json  
+===> 2019-11-20 07:17:39.389 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger/favicon-32x32.png  
+===> 2019-11-20 07:17:39.389 +03:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2019-11-20 07:17:39.390 +03:00 [Debug] Request did not match any routes
+===> 2019-11-20 07:17:39.391 +03:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2019-11-20 07:17:39.391 +03:00 [Debug] Request did not match any routes
+===> 2019-11-20 07:17:39.392 +03:00 [Information] Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+===> 2019-11-20 07:17:39.392 +03:00 [Information] Request finished in 2.617ms 200 image/png
+===> 2019-11-20 07:17:39.401 +03:00 [Information] Request finished in 12.1942ms 200 application/json;charset=utf-8
+===> 2019-11-20 07:17:55.453 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger/v2/swagger.json  
+===> 2019-11-20 07:17:55.453 +03:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2019-11-20 07:17:55.454 +03:00 [Debug] Request did not match any routes
+===> 2019-11-20 07:17:55.455 +03:00 [Information] Request finished in 2.3325ms 200 application/json;charset=utf-8
+===> 2019-11-20 07:18:34.785 +03:00 [Information] Starting web host
+===> 2019-11-20 07:18:34.965 +03:00 [Information] User profile is available. Using '"C:\Users\vstb\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+===> 2019-11-20 07:18:35.010 +03:00 [Debug] Reading data from file '"C:\Users\vstb\AppData\Local\ASP.NET\DataProtection-Keys\key-32127517-b397-4ae3-9a44-33b0fb40f912.xml"'.
+===> 2019-11-20 07:18:35.048 +03:00 [Debug] Found key {32127517-b397-4ae3-9a44-33b0fb40f912}.
+===> 2019-11-20 07:18:35.066 +03:00 [Debug] Considering key {32127517-b397-4ae3-9a44-33b0fb40f912} with expiration date 2020-02-18 03:31:12Z as default key.
+===> 2019-11-20 07:18:35.103 +03:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+===> 2019-11-20 07:18:35.107 +03:00 [Debug] Decrypting secret element using Windows DPAPI.
+===> 2019-11-20 07:18:35.109 +03:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+===> 2019-11-20 07:18:35.114 +03:00 [Debug] Opening CNG algorithm '"AES"' from provider 'null' with chaining mode CBC.
+===> 2019-11-20 07:18:35.116 +03:00 [Debug] Opening CNG algorithm '"SHA256"' from provider 'null' with HMAC.
+===> 2019-11-20 07:18:35.121 +03:00 [Debug] Using key {32127517-b397-4ae3-9a44-33b0fb40f912} as the default key.
+===> 2019-11-20 07:18:35.122 +03:00 [Debug] Key ring with default key {32127517-b397-4ae3-9a44-33b0fb40f912} was loaded during application startup.
+===> 2019-11-20 07:18:35.159 +03:00 [Information] Startup::Configure
+===> 2019-11-20 07:18:35.306 +03:00 [Debug] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.Versioning.ApiVersionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider"]
+===> 2019-11-20 07:18:35.322 +03:00 [Debug] Initializing Razor view compiler with no compiled views.
+===> 2019-11-20 07:18:35.507 +03:00 [Debug] An 'IServiceProvider' was created for internal use by Entity Framework.
+===> 2019-11-20 07:18:35.597 +03:00 [Debug] An additional 'IServiceProvider' was created for internal use by Entity Framework. An existing service provider was not used due to the following configuration changes: "configuration added for 'Proxies:UseLazyLoadingProxies'".
+===> 2019-11-20 07:18:36.651 +03:00 [Information] Entity Framework Core "3.0.0" initialized '"INGMASTERContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies "
+===> 2019-11-20 07:18:36.908 +03:00 [Debug] Opening connection to database '"INGMASTER"' on server '".\SQLEXPRESS"'.
+===> 2019-11-20 07:18:51.644 +03:00 [Debug] An error occurred using the connection to database '"INGMASTER"' on server '".\SQLEXPRESS"'.
+===> 2019-11-20 07:18:51.873 +03:00 [Debug] '"INGMASTERContext"' disposed.
+===> 2019-11-20 07:18:51.875 +03:00 [Error] A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+===> 2019-11-20 07:18:51.936 +03:00 [Debug] Loaded hosting startup assembly "INGMASTER.Api"
+===> 2019-11-20 07:18:51.998 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/api/info  
+===> 2019-11-20 07:18:52.003 +03:00 [Debug] Wildcard detected, all requests with hosts will be allowed.
+===> 2019-11-20 07:18:52.091 +03:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2019-11-20 07:18:52.244 +03:00 [Debug] Request successfully matched the route with name 'null' and template '"api/Info"'
+===> 2019-11-20 07:18:52.281 +03:00 [Information] Route matched with "{action = \"ApiInfo\", controller = \"Info\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult ApiInfo()" on controller "INGMASTER.Api.Controllers.v1.InfoController" ("INGMASTER.Api").
+===> 2019-11-20 07:18:52.282 +03:00 [Debug] Execution plan of "authorization" filters (in the following order): ["None"]
+===> 2019-11-20 07:18:52.282 +03:00 [Debug] Execution plan of "resource" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+===> 2019-11-20 07:18:52.282 +03:00 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2019-11-20 07:18:52.283 +03:00 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+===> 2019-11-20 07:18:52.283 +03:00 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter", "Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)", "Microsoft.AspNetCore.Mvc.ProducesAttribute (Order: 0)"]
+===> 2019-11-20 07:18:52.285 +03:00 [Debug] Executing controller factory for controller "INGMASTER.Api.Controllers.v1.InfoController" ("INGMASTER.Api")
+===> 2019-11-20 07:18:52.286 +03:00 [Debug] Executed controller factory for controller "INGMASTER.Api.Controllers.v1.InfoController" ("INGMASTER.Api")
+===> 2019-11-20 07:18:52.401 +03:00 [Information] Executing action method "INGMASTER.Api.Controllers.v1.InfoController.ApiInfo (INGMASTER.Api)" - Validation state: Valid
+===> 2019-11-20 07:18:52.409 +03:00 [Information] Executed action method "INGMASTER.Api.Controllers.v1.InfoController.ApiInfo (INGMASTER.Api)", returned result "Microsoft.AspNetCore.Mvc.ContentResult" in 2.6476ms.
+===> 2019-11-20 07:18:52.415 +03:00 [Information] Executing ContentResult with HTTP Response ContentType of "text/html"
+===> 2019-11-20 07:18:52.457 +03:00 [Information] Executed action "INGMASTER.Api.Controllers.v1.InfoController.ApiInfo (INGMASTER.Api)" in 168.8697ms
+===> 2019-11-20 07:18:52.464 +03:00 [Information] Request finished in 469.387ms 200 text/html
+===> 2019-11-20 07:18:52.917 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/favicon.ico  
+===> 2019-11-20 07:18:52.920 +03:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2019-11-20 07:18:52.923 +03:00 [Debug] Request did not match any routes
+===> 2019-11-20 07:18:52.966 +03:00 [Debug] The request path "" does not match the path filter
+===> 2019-11-20 07:18:52.967 +03:00 [Debug] Request did not match any routes
+===> 2019-11-20 07:18:52.969 +03:00 [Information] Request finished in 52.902ms 404 
